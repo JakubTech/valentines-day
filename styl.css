@@ -14,7 +14,7 @@ body {
     align-items: center;
     margin: 0 auto;
     max-width: 600px;
-    min-height: 600px;
+    min-height: 575px;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 50px;
 }
@@ -37,7 +37,7 @@ body {
     text-align: center;
 }
 #buttons {
-    min-height: 200px;
+    min-height: 175px;
     text-align: center;
 }
 .btn {
@@ -75,7 +75,7 @@ body {
     max-width: 400px;
     min-height: 50px;
     background-color: rgba(255, 255, 255, 0.95);
-    margin: 30px auto;
+    margin: 15px auto;
     border-radius: 50px;
 }
 @keyframes textColor {
