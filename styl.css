@@ -1,0 +1,97 @@
+body {
+    font-family: "Pangolin", cursive;
+    background: url("https://wallpaperset.com/w/full/b/0/1/128164.jpg");
+    animation: anime 100s linear infinite;
+    background-size: cover;
+}
+@keyframes anime {
+    0%      { background-position: 0 0; }
+    100%    { background-position: -2000px 0; }
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px;
+    min-height: 600px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 50px;
+}
+#image {
+    height: 200px;
+    display: flex;
+}
+#image img {
+    width: 200px;
+    height: 150px;
+    margin: 20px 0 0 0;
+    border-radius: 100%;
+}
+#question {
+    margin: 20px 0 0 0;
+    max-width: 500px;
+    min-height: 200px;
+    color: rgb(54, 8, 8);
+    text-shadow: 0 0 1.5px rgb(54, 8, 8);
+    font-size: 40px;
+    text-align: center;
+}
+#buttons {
+    min-height: 200px;
+    text-align: center;
+}
+.btn {
+    font-size: 40px;
+    font-style: italic;
+    margin: 20px 25px;
+    width: 200px;
+    height: 100px;
+}
+#no {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: none;
+    text-shadow: 0 0 5px whitesmoke;
+    border-radius: 100px;
+}
+#yes {
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 100px;
+    border: none;
+    text-shadow: 0 0 5px whitesmoke;
+    border-radius: 100px;
+}
+#yes:hover {
+    background-color: rgb(206, 1, 1);
+}
+#container-love {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 30px auto;
+    border-radius: 50px;
+}
+@keyframes textColor {
+    25% {color: rgb(255, 0, 0);}
+    50% {color: rgb(0, 143, 43);}
+    75% {color: rgb(0, 28, 121);}
+    100% {color: rgb(194, 0, 168);}
+}
+#content {
+    margin: auto auto;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(54, 8, 8);
+    text-shadow: 0 0 1.5px rgb(54, 8, 8);
+    animation-name: textColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's day</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="image">
+            <img src="photo-of-patka.jpg" alt="zdjęcie Patki">
+        </div>
+        <div id="question">Czy ta oto piękna osóbka zostanie moją walentynką? 😍
+        </div>
+        <div id="buttons">
+            <button id="no" class="btn" onclick="sad()">NIE</button>
+            <button id="yes" class="btn" onclick="yay()">TAK</button>
+        </div>
+        <script>
+            function sad() {
+                alert("Chyba ci się źle kliknęło 😅");
+            }
+            function yay() {
+                document.getElementById("result").innerHTML = "YAY, widzimy się 14 lutego 🥰";
+            }
+        </script>
+    </div>
+    <div id="container-love">
+        <div id="content">
+            <p id="result">Kocham cię 😻</p>
+        </div>
+    </div>
+</body>
+</html>
